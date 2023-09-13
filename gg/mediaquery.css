@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+.row{
+    height: auto;
+    width: 100%;
+}
+.coloum{
+    width: 24%;
+    height: 350px;
+    background-color: blue;
+    margin: 2px;
+    float: left;
+}
+@media screen and  max-width: 94px;{
+    body{
+        background-color: black;
+    }
+    .coloum{width: 48%;
+        height:254px;
+        background-color:red
+    
+}
